@@ -1,2 +1,2 @@
 # Games
-assignment test for Mondia company
+technical assignment for Mondia company
