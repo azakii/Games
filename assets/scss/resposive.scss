@@ -1,0 +1,16 @@
+/*
+	bloopark Theme
+	Author: zaki | bloopark
+	Version 0.0.1
+*/
+
+@import 'compass';
+
+// Base
+@import 'base/_variables.scss';
+@import 'lib/slick.scss'; 
+@import 'lib/_slick-theme.scss';  
+
+// Resposive
+@import 'layout/_resposive.scss';
+

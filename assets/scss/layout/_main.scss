@@ -1,0 +1,136 @@
+.topMenu {
+    padding:.5rem 0;
+    border-top: 2px #868686 solid;
+    h1 {margin-bottom: 0;padding-bottom: 0;}
+    background-color: $base-color;
+    position: relative;
+    a {color: white;}
+    a.logo {
+     font-size: 1.3rem;
+    display: inline-block;
+     color: white;
+     text-transform: capitalize;
+    line-height: 38px;
+    font-weight: 600;
+        &::before {
+                background: url(../img/sprite.png) -200px -1200px no-repeat;
+                content: '';
+                width: 48px;
+                height: 43px;
+                display: inline-block;
+                margin-left: 1rem;float: left;
+        }
+    }
+}
+.headerBottom {
+    background:#464646;
+    border-top: 1px #fff solid;
+    box-shadow: 1px 1px 10px $base-color;
+    position: relative;
+    z-index: 2;
+    .swip-menu {
+
+         li {
+            a {color:#c7c7c7;text-transform: uppercase;font-weight: 700;
+                padding: .7rem;
+                display: inline-block;
+                border-bottom: 3px #464646 solid;
+              }
+             &:hover, &:focus {
+                  a {
+                    border-bottom: 3px #c7c7c7 solid;
+                      }
+                }
+              &.active {
+                  a {
+                    color: white;
+                    border-bottom: 3px #bfc642 solid;
+                      }
+                }
+        }
+    }
+}
+.carouselSlider {
+    background-color: #c7c7c7;
+    z-index:1;
+}
+
+//productSlider
+
+.productSlider {
+    .heading {
+        margin-bottom: 1rem;
+        h2 {
+            color: $base-color;
+            display: inline-block;
+            text-transform: capitalize;
+        }
+        a {
+            font-weight: 600;
+            color: #bfc642;
+            &:hover {
+                color: $base-color;
+            }
+
+        }
+    }
+    .gameApp {
+        width: 230px !important;
+        margin-right: 15px;
+        display: inline-block;
+        background-color: white;
+        padding: 1rem;
+        border-radius: 5px;
+        box-shadow:1px 1px 11px #bfbfbf;
+        h2 {
+            color: $base-color;
+            padding:1.5rem 0 0;
+            display: inline-block;
+            width: 100%;
+            margin: 0;
+            text-transform: capitalize;
+        }
+        p {
+            text-transform: capitalize;
+            color: #868686;
+            font-style:normal;
+            font-weight: 600;
+            margin: 0;
+            padding: 0;
+        }
+        span {
+            margin-top:.5rem;
+            display: inline-block;
+        }
+        a {
+            color:#e1e1e1;
+            i.active {
+                color: #868686;
+            }
+        }
+    }
+}
+.slider.responsive .slick-list {
+        height: 360px;
+}
+.login {
+    &::before {
+                background: url(../img/sprite.png) 0px 0px no-repeat;
+                content: '';
+                width: 38px;
+                height: 25px;
+                display: inline-block;
+                float: left;
+        }
+}
+.help {
+    &::before {
+                background: url(../img/sprite.png) -600px 0px no-repeat;
+                content: '';
+                width: 38px;
+                height: 25px;
+                display: inline-block;
+                float: left;
+        }
+}
+body.pushed {overflow: hidden !important;}
